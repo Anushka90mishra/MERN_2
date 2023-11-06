@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0 ;
+        }
+        header {
+            background-color: #16bdbd;
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }
+        nav {
+            background-color: #665f5f;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            display : grid  ;
+            grid-template-columns: 2fr 1fr;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 10px;
+        }
+        .main-content {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .nav1{
+            display: flex ; 
+            justify-content : left ; 
+        }
+        
+        .sign-up {
+            padding:10px;
+            text-align: right;
+            margin-right: 5px;
+            
+        }
+
+        .main-content{
+            padding : 0 ; 
+            display:grid ;
+            grid-template-columns: 4fr 1fr;
+            height: 900px ; 
+
+        }
+
+        .sideBlock{
+            background-color: #3a3636;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ethnus Layout</h1>
+    </header>
+    <nav>
+    <div class= "nav1">
+        <a href="#" >HOME</a>
+        <a href="#">MENU</a>
+        <a href="#">ABOUT</a>
+        <a href="#">CONTACT</a>
+    </div>
+        <div class="sign-up">
+            <a href="#" style ="padding-right: 60px;">SIGN UP </a>
+            <a href="#">LOGIN</a>
+        </div>
+    </nav>
+    <div class="main-content">
+        <!-- Your main content goes here -->
+        <div class="content">
+
+        </div>
+        <div class="sideBlock">
+            <p style="color:white" >This is </p>
+        </div>
+    </div>
+</body>
+</html>
+
